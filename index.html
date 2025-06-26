@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. A.P.J. Abdul Kalam</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+          
+        }
+
+        .navigation {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #d5881b;
+            padding: 15px;
+            gap: 10px;
+            position: sticky;
+        
+        }
+
+        .navigation a {
+
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #b35700;
+            transition: background-color 0.3s ease;
+            
+
+        }
+
+        .navigation a:hover {
+            background-color: #c25e1f;
+        }
+
+        .parent-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card-item {
+            flex: 1 1 300px;
+            max-width: 400px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(9, 111, 155, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin: 10px;
+            
+        }
+
+        .card-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        p {
+            padding-top: 10px;
+            line-height: 1.6;
+        }
+
+        #gallery a {
+            display: inline-block;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        #gallery a:hover {
+            background-color: #0056b3;
+        }
+
+        @media (max-width: 600px) {
+            .navigation {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .navigation a {
+                width: 100%;
+                text-align: center;
+            }
+
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navigation">
+        <a href="#biography">Biography</a>
+        <a href="#career">Career</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#goals">Goals</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+
+    <div class="parent-container">
+        <div class="card-item">
+            <h3 id="biography">Biography</h3>
+            <p>
+                <strong>Full Name:</strong> Mohandas Karamchand Gandhi<br>
+                <strong>Born:</strong> (2 October 1869 ,Porbandar, Kanthiawar) , India<br>
+                <strong>Died:</strong> January 30, 1948,Birla House, New Delhi, India<br>
+                <strong>Occupation:</strong>  Indian lawyer, anti-colonial nationalist, and political ethicist , India <br>
+                <strong>Known As:</strong> "Father of the Nation”<br>
+                <strong>Awards:</strong> Gandhi received the Queen's South Africa Medal<br><br>
+                <em>“Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.”</em>
+            </p>
+        </div>
+
+        <
